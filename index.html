@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Web Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.color-2.1.2.min.js"></script>
+    <script src="js/jpeg_camera_no_flash.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+    You have bootstrap and font-awesome enabled
+    <div class="row">
+        <div class="col-md-4 no-padding">
+            <div class="box camera-box" id="camera">
+                <video autoplay="true" id="videoElement">
+
+                </video>
+            </div>
+            <button id="snap"><i class="fa fa-camera"></i></button>
+        </div>
+        <div class="col-md-4 no-padding">
+            <div class="box photo-box" id="photo">
+                <canvas id="canvas">
+
+                </canvas>
+            </div>
+
+            <button class="check"><i class="fa fa-check"></i></button>
+        </div>
+        <div class="col-md-4 no-padding">
+            <div class="box result" id="result">
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/application.js"></script>
+
+</body>
+
+</html>

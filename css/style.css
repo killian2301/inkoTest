@@ -1,0 +1,43 @@
+.container {
+    padding-top: 10em;
+}
+.no-padding{
+    padding: 0;
+}
+.box {
+    height: 250px;
+    background-color: steelblue;
+    width: 80%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.camera-box {
+    border: 2px solid black;
+}
+
+.photo-box {
+    border: 2px dashed black;
+}
+
+button{
+    position: relative;
+    top: -125px
+}
+
+#videoElement {
+    height: 100%;
+    width: 100%;
+    background-color: #666;
+}
+
+#canvas{
+    height:100%;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
